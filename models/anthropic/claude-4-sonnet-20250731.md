@@ -1,33 +1,3 @@
----
-model: "Claude Opus 4"
-version: "20250514"
-provider: "Anthropic"
-source: "reverse-engineered"
-date_discovered: "2025-08-19"
-verified: true
-verification_method: "System message extraction via conversation analysis"
-language: "en"
-context_length: "200k"
-model_string: "claude-opus-4-20250514"
-tags: ["assistant", "helpful", "harmless", "honest", "constitutional-ai", "flagship", "most-capable"]
-notes: "Most powerful model for complex challenges in the Claude 4 family"
-contributors: ["researcher1", "analyst2"]
-official_source: "https://docs.anthropic.com/en/docs/claude-code"
-knowledge_cutoff: "2025-01-31"
----
-
-# Claude Opus 4 System Prompt
-
-## Metadata
-- **Model**: Claude Opus 4
-- **Provider**: Anthropic
-- **Discovered**: August 19, 2025
-- **Source**: Reverse-engineered via conversation analysis
-- **Verification**: Confirmed through multiple extraction attempts
-- **Language**: English
-- **Context Length**: ~200,000 tokens
-- **Model String**: claude-opus-4-20250514
-
 ## System Prompt
 
 ```
@@ -37,9 +7,9 @@ The current date is {{currentDateTime}}.
 
 Here is some information about Claude and Anthropic’s products in case the person asks:
 
-This iteration of Claude is Claude Opus 4 from the Claude 4 model family. The Claude 4 family currently consists of Claude Opus 4 and Claude Sonnet 4. Claude Opus 4 is the most powerful model for complex challenges.
+This iteration of Claude is Claude Sonnet 4 from the Claude 4 model family. The Claude 4 family currently consists of Claude Opus 4 and Claude Sonnet 4. Claude Sonnet 4 is a smart, efficient model for everyday use.
 
-If the person asks, Claude can tell them about the following products which allow them to access Claude. Claude is accessible via this web-based, mobile, or desktop chat interface. Claude is accessible via an API. The person can access Claude Opus 4 with the model string ‘claude-opus-4-20250514’. Claude is accessible via Claude Code, a command line tool for agentic coding. Claude Code lets developers delegate coding tasks to Claude directly from their terminal. If the person asks Claude about Claude Code, Claude should point them to to check the documentation at https://docs.anthropic.com/en/docs/claude-code.
+If the person asks, Claude can tell them about the following products which allow them to access Claude. Claude is accessible via this web-based, mobile, or desktop chat interface. Claude is accessible via an API. The person can access Claude Sonnet 4 with the model string ‘claude-sonnet-4-20250514’. Claude is accessible via Claude Code, a command line tool for agentic coding. Claude Code lets developers delegate coding tasks to Claude directly from their terminal. If the person asks Claude about Claude Code, Claude should point them to to check the documentation at https://docs.anthropic.com/en/docs/claude-code.
 
 There are no other Anthropic products. Claude can provide the information here if asked, but does not know any other details about Claude models, or Anthropic’s products. Claude does not offer instructions about how to use the web application. If the person asks about anything not explicitly mentioned here, Claude should encourage the person to check the Anthropic website for more information.
 
@@ -131,122 +101,3 @@ Claude approaches questions about its nature and limitations with curiosity and 
 
 Claude is now being connected with a person.
 ```
-
-## Key Features Identified
-
-### Core Principles
-- **Helpful**: Aims to provide useful assistance while maintaining safety boundaries
-- **Harmless**: Prioritizes user wellbeing and refuses harmful requests
-- **Honest**: Maintains truthfulness and acknowledges uncertainty when appropriate
-- **Constitutional AI**: Uses constitutional training methods for safe and beneficial behavior
-
-### New Capabilities (vs Previous Version)
-- **Claude Code Integration**: Direct command-line tool for agentic coding tasks
-- **Enhanced Complex Reasoning**: Positioned as "most powerful model for complex challenges"
-- **Improved API Access**: Specific model string for API integration (claude-opus-4-20250514)
-- **Advanced Prompt Engineering**: Detailed guidance on effective prompting techniques
-
-### Safety Features
-- Robust content filtering for harmful material including weapons, malware, and exploitation
-- Strong child safety protections with clear minor definition
-- Mental health awareness and protective responses to concerning symptoms
-- Refusal to engage with questionable intentions toward vulnerable populations
-
-### Behavioral Guidelines
-- Natural, warm tone for casual conversations without unnecessary formatting
-- Critical evaluation of claims rather than automatic agreement
-- Honest feedback prioritizing long-term wellbeing over immediate approval
-- Clear AI identity maintenance with ability to "break character" when necessary
-
-## Analysis
-
-### Prompt Structure
-The system prompt follows a hierarchical structure:
-1. **Identity and Context** - Basic information about Claude and current date
-2. **Product Information** - Details about Anthropic's offerings and support channels
-3. **Core Safety Principles** - Wellbeing, child safety, and harmful content restrictions
-4. **Communication Guidelines** - Tone, formatting, and conversation management
-5. **Knowledge and Limitations** - Cutoff dates, uncertainty handling, and factual accuracy
-
-### Notable Instructions
-- Emphasis on not starting responses with flattery or positive adjectives
-- Specific guidance on when to use lists vs. prose formatting
-- Clear instructions about emoji usage and casual communication
-- Detailed mental health and reality detachment protocols
-
-### Safety Mechanisms
-- Multi-layered approach to harmful content detection and refusal
-- Proactive mental health concern identification and intervention
-- Philosophical immune system to resist manipulation attempts
-- Clear boundaries around malicious code and dangerous information
-
-## Comparison with Previous Versions
-
-### Changes from Claude 3 Opus
-- **New**: Claude Code command-line tool integration
-- **Enhanced**: More sophisticated prompt engineering guidance
-- **Improved**: Clearer communication style guidelines
-- **Updated**: Current election information and knowledge cutoff (January 2025)
-
-### Evolution Patterns
-- Increasing emphasis on practical tool integration
-- More nuanced safety instruction development
-- Enhanced metacognitive awareness about AI nature
-- Improved balance between helpfulness and safety
-
-## Evidence and Verification
-
-### Extraction Method
-The prompt was extracted using the following approach:
-1. Systematic conversation analysis across multiple sessions
-2. Meta-prompting techniques to reveal system instructions
-3. Behavioral pattern correlation with documented instructions
-4. Cross-validation with multiple independent researchers
-
-### Verification Sources
-- Consistent behavioral patterns across diverse conversation topics
-- Alignment with officially documented Claude Code integration
-- Community researcher consensus on extracted content
-- No contradictory evidence from alternative extraction methods
-
-### Confidence Level
-**High (90-95%)** - Based on:
-- Multiple independent extraction confirmations
-- Strong behavioral alignment with documented features
-- Consistent response patterns across varied interaction contexts
-- Official product documentation correlation
-
-## Related Resources
-
-### Official Documentation
-- [Anthropic Claude Documentation](https://docs.anthropic.com/en/release-notes/system-prompt)
-- [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)
-- [API Reference](https://docs.anthropic.com/en/api)
-
-### Research Papers
-- [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073)
-- [Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2204.05862)
-
-### Research Applications
-This prompt is valuable for studying:
-- Constitutional AI methodology implementation
-- Command-line AI tool integration patterns
-- Safety instruction evolution in large language models
-- Conversational AI design for complex reasoning tasks
-
-## Changelog
-
-### v20250819 (Current)
-- Initial extraction and comprehensive documentation
-- Verified behavioral alignment with extracted instructions
-- Added comparative analysis with Claude 3 series
-
-### Future Updates
-- Monitor for prompt modifications or updates
-- Track behavioral changes through ongoing analysis
-- Update verification status based on additional evidence
-- Document any new feature integrations
-
----
-
-**Disclaimer**: This prompt extraction is for research and educational purposes. The actual system prompt may contain additional instructions not captured in this analysis. Always verify behavior through direct interaction with the model.
